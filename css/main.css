@@ -1,6 +1,16 @@
 .mt-0 {
     margin-top: 0 !important;
   }
+  body {
+    background-image: url("../images/background4.jpg");
+  }
   .container-fluid {
-    background-image: url("../images/background.jpg");
+    width: 100%;
+  }
+  .jumbotron {
+    color: white;
+  }
+
+  .About p {
+    color: white;
   }
