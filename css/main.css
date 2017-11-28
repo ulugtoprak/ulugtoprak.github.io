@@ -3,6 +3,7 @@
   }
   body {
     background-image: url("../images/background4.jpg");
+    position: relative;
   }
   .container-fluid {
     width: 100%;
@@ -10,7 +11,17 @@
   .jumbotron {
     color: white;
   }
-
-  .About p {
+  .container p {
     color: white;
   }
+
+.card {
+  background-color: transparent;
+}
+.card-header{
+background-color:#212529;
+}
+#about {
+
+  padding-top: 70px;
+}
