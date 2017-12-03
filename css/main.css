@@ -26,8 +26,14 @@ background-color: transparent;
 #about {
   padding-top: 70px;
 }
+#education{
+  padding-top: 70px;
+}
 .white-text{
   color:white;
+}
+#expanding{
+  padding-bottom: 70px;
 }
 
 /* Read more - Read Less */
