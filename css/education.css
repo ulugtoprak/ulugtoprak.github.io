@@ -1,0 +1,43 @@
+body {
+  opacity: 1;
+  transition: 3s opacity;
+  height: 100%;
+  padding-top: 55px;
+  background-color: black;
+}
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+html {
+    background-color: black;
+	height:100%;
+}
+.bg-1 { 
+       background-color: #BFBFBF;
+ } 
+.bg-2 { 
+      background-color: #202020;
+      color: white;
+}
+
+.container-fluid {
+    padding-bottom: 30px;
+	background-color: #BFBFBF;
+	width:70%;
+}
+
+.accordion .card-header:after {
+    font-family: 'FontAwesome';  
+    content: "\f068";
+    float: right; 
+	cursor: pointer;
+}
+.accordion .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f067"; 
+}
+
+li {
+    cursor: pointer;
+}

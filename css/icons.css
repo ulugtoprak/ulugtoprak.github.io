@@ -1,4 +1,3 @@
-
 ul.social-network {
 	list-style: none;
 	display: inline;
@@ -7,7 +6,7 @@ ul.social-network {
 }
 ul.social-network li {
 	display: inline;
-	margin: 0 5px;
+	margin: 0 20px;
 }
 .social-network a.icoLinkedin:hover {
 	background-color:#007BB6;
@@ -28,7 +27,6 @@ ul.social-network li {
 a.socialIcon:hover, .socialHoverClass {
 	color:#44BCDD;
 }
-
 .social-circle li a {
 	display:inline-block;
 	position:relative;
@@ -39,7 +37,7 @@ a.socialIcon:hover, .socialHoverClass {
 	text-align:center;
 	width: 50px;
 	height: 50px;
-	font-size:20px;
+	font-size:30px;
 }
 .social-circle li i {
 	margin:0;
@@ -65,4 +63,4 @@ a.socialIcon:hover, .socialHoverClass {
 	-o-transition: all 0.8s;
 	-ms-transition: all 0.8s;
 	transition: all 0.8s;
-}
+}8
