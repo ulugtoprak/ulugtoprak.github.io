@@ -23,7 +23,7 @@ body {
     width: 400px;
     height: 300px;
 }
-h2 {
+h2, h4 {
     color:white;
 
 }
@@ -33,10 +33,16 @@ p {
 
 }
 
-@media (max-width: @screen-xs) {
-    body{font-size: 10px;}
+.text-left, .text-center {
+    color: black;
 }
 
-@media (max-width: @screen-sm) {
-    body{font-size: 14px;}
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
 }
