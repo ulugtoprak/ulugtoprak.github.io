@@ -53,6 +53,11 @@ hr {
      margin-bottom: 0px; 
 }
 .skill-name {
-    padding-bottom:5px; 
+    padding-bottom:5px;
+    padding-top: 5px; 
 }
+.skill-name{
+    color: white;
+}
+
 
